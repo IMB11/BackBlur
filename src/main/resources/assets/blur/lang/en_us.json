@@ -1,0 +1,7 @@
+{
+  "text.config.back-blur.title": "Back Blur Configuration",
+  "text.config.back-blur.option.quality": "Quality",
+  "text.config.back-blur.option.strength": "Strength",
+  "text.config.back-blur.option.tintColor": "Tint Color",
+  "text.config.back-blur.option.tintStrength": "Tint Strength"
+}

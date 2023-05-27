@@ -1,15 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "BlurUI",
+  "id": "back-blur",
   "version": "${version}",
-  "name": "BlurUI",
-  "description": "",
+  "name": "BackBlur",
+  "description": "A configurable blur for transparent screens in-game.",
   "authors": [],
-  "contact": {},
-  "license": "MIT",
-  "icon": "assets/BlurUI/icon.png",
-  "environment": "*",
-  "entrypoints": {},
+  "contact": {
+    "repo": "https://github.com/mineblock11/BlurUI"
+  },
+  "license": "ARR",
+  "icon": "assets/blur/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mineblock11.blur.BlurMain"
+    ]
+  },
   "mixins": [
     "BlurUI.mixins.json"
   ],
