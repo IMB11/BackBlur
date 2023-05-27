@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "BlurUI",
+  "version": "${version}",
+  "name": "BlurUI",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/BlurUI/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "BlurUI.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
