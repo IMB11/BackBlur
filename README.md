@@ -10,4 +10,5 @@ BackBlur uses owo lib's built in blur functionality, and it's configuration libr
 
 The configuration screen is accessible via mod menu:
 
-![image](https://github.com/mineblock11/BackBlur/assets/93472213/9834d1de-ee53-4b70-a43c-6e5162bb33ee)
+![image](https://github.com/mineblock11/BackBlur/assets/93472213/e00a796d-f78b-4da5-9b25-15e7444b1b49)
+
