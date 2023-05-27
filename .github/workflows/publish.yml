@@ -23,7 +23,7 @@ jobs:
           java-version: 17
       - run: chmod +x gradlew
       - name: Build And Publish To Maven
-        run: ./gradlew build publish --no-daemon -PmineblockMavenUsername=mineblock11 -PmineblockMavenPassword=${{ secrets.MAVEN_TOKEN }}
+        run: ./gradlew build publish --no-daemon
       - uses: Kir-Antipov/mc-publish@latest
         with:
           modrinth-id: ${{ vars.MODRINTH_ID }}
